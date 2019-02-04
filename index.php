@@ -99,3 +99,8 @@ function CheckDirPath($path, $bPermission = true)
 	}
 	return is_dir($path);
 }
+// куски говно кода
+public function IsAuthorized()
+	{
+		return ($_SESSION["SESS_AUTH"]["AUTHORIZED"]=="Y");
+	}

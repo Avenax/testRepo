@@ -104,3 +104,6 @@ public function IsAuthorized()
 	{
 		return ($_SESSION["SESS_AUTH"]["AUTHORIZED"]=="Y");
 	}
+
+
+$pat = "/^[a-zа-я0-9_]+( [a-zа-я0-9_]+)*$/ui";

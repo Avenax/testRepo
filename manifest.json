@@ -1,0 +1,22 @@
+{
+  "short_name": "Колхоз",
+  "name": "Золотой Колхоз",
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#020",
+  "display": "standalone",
+  "scope": "/",
+  "orientation": "landscape",
+  "theme_color": "#002200"
+}

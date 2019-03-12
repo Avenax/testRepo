@@ -107,3 +107,13 @@ public function IsAuthorized()
 
 
 $pat = "/^[a-zа-я0-9_]+( [a-zа-я0-9_]+)*$/ui";
+
+
+
+
+
+
+
+// 
+$continents = array( 'Africa', 'America', 'Antarctica', 'Arctic', 'Asia', 'Atlantic', 'Australia', 'Europe', 'Indian', 'Pacific');
+

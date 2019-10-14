@@ -7,6 +7,21 @@
  *
  * @return bool True if SSL, otherwise false.
  */
+function pathRoot() {
+	return (CMain::IsHTTPS() ? "https://" : "http://") . $_SERVER['SERVER_NAME'];
+}
+
+function getTimeIso8601($TIMESTAMP_X) {
+	$datetime = new DateTime($TIMESTAMP_X);
+	return $datetime->format('c');
+}
+
+function getRatGoogle() {
+	$content = file_get_contents($_SERVER['DOCUMENT_ROOT'].'/include/social.php');
+	preg_match_all('/const.*?=(.*?);/s', $content, $matchesAllRat, PREG_SET_ORDER);
+	return ['rat' => $matchesAllRat[0][1], 'average' => $matchesAllRat[1][1], 'max' => $matchesAllRat[2][1]];
+}
+
 function is_ssl() {
 	if ( isset( $_SERVER['HTTPS'] ) ) {
 		if ( 'on' == strtolower( $_SERVER['HTTPS'] ) ) {

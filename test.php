@@ -1,7 +1,1 @@
-fffwer4<?php 
-echo 123;
-// 1
-2
-3
-e
-3wqe
+1

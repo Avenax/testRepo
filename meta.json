@@ -1,7 +1,7 @@
 {
   "name": "My Test NFT #1",
-  "description": "Первый тестовый NFT, выпущенный в тестнете. Ссылка на метаданные загружена в GitHub.",
-  "image": "https://bafybeig4ob2iu75ppvux3kqkobyrth4t4kjkdc75cukob3aawbwxzyg4ya.ipfs.inbrowser.link/",
+  "description": "The first test NFT released on the testnet. The metadata link is available on GitHub.",
+  "image": "https://github.com/Avenax/testRepo/blob/master/lit.png",
   "external_url": "https://litclinic.xyz/",
   "attributes": [
     {

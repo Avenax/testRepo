@@ -1,0 +1,21 @@
+{
+  "name": "My Test NFT #1",
+  "description": "Первый тестовый NFT, выпущенный в тестнете. Ссылка на метаданные загружена в GitHub.",
+  "image": "https://github.com/Avenax/testRepo/blob/master/lit.png",
+  "external_url": "https://litclinic.xyz/",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser"
+    },
+    {
+      "trait_type": "Level",
+      "value": 5,
+      "display_type": "number"
+    }
+  ]
+}
